@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+section {
+    margin: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+section {
+    margin: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+>>>>>>> c02865e (Přidání souborů do repozitáře)
