@@ -1,4 +1,4 @@
-﻿body {
+﻿bbody {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,16 +6,16 @@
 }
 
 header {
-    background-color: #007bff;
+    background: linear-gradient(90deg, #007bff, #0056b3);
     color: white;
     padding: 20px;
 }
 
-/* Navigační lišta */
 .navbar {
-    background-color: #333;
+    background-color: #222;
     padding: 10px;
     text-align: center;
+    position: relative;
 }
 
 .dropdown-btn {
@@ -25,22 +25,33 @@ header {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: white;
     min-width: 150px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .dropdown-content a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #333;
+    color: #222;
+    transition: 0.3s;
 }
 
 .dropdown-content a:hover {
@@ -66,3 +77,4 @@ footer {
     color: white;
     padding: 10px;
 }
+

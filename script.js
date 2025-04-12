@@ -6,7 +6,6 @@
         dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
     });
 
-    // Zavře dropdown, když klikneš mimo něj
     document.addEventListener("click", function(event) {
         if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
             dropdownContent.style.display = "none";
